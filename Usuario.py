@@ -1,1 +1,5 @@
-print("hola")
+class Usuario:
+    Nombre:str
+    DocumentoUsuario:int
+    Contraseña:str
+
