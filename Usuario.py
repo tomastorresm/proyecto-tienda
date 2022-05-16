@@ -1,14 +1,14 @@
 class Usuario:
     Nombre:str
     DocumentoUsuario:int
-    Contraseña:str
-    def __init__(self,Nombre,DocumentoUsuario,Contraseña):
+    Contrasena:str
+    def __init__(self,Nombre,DocumentoUsuario,Contrasena):
         self.Nombre=Nombre
         self.DocumentoUsuario=DocumentoUsuario
-        self.Contraseña=Contraseña
+        self.Contrasena=Contrasena
 
     def printdatos(self):
-        print(self.Nombre,self.DocumentoUsuario,self.Contraseña)    
+        print(self.Nombre,self.DocumentoUsuario,self.Contrasena)    
 x=Usuario("tomas","1002544519","123")
 x.printdatos()
 

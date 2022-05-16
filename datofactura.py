@@ -18,15 +18,16 @@ class DatoFactura:
     Venta:Venta
     MetodoPago:str
     InformacionTienda: InformacionTienda
-
-    def __init__(self,Cliente):
+    
+    def __init__(self,fecha,NombreTienda,Telefono,NumeroFactura,MetodoPago,Cliente,Vendedor,Producto,Venta,InformacionTienda):
         self.Cliente=Cliente
-    def __init__(self,Vendedor):
         self.Vendedor=Vendedor
-    def __init__(self,Producto):
         self.Producto=Producto
-    def __init__(self,Venta):
         self.Venta=Venta 
-    def __init__(self,InformacionTienda):
         self.InformacionTienda=InformacionTienda
+        self.Fecha=fecha
+        self.NombreTienda=NombreTienda
+        self.Telefono=Telefono
+        self.NumeroDeFactura=NumeroFactura
+        self.MetodoPago=MetodoPago
 

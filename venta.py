@@ -9,7 +9,9 @@ class Venta:
     TotalPagar:float
     Vendedor:Vendedor
 
-    def __init__(self,Producto):
+    def __init__(self,Producto,CantidadProducto,Totalpagar,Vendedor):
+        self.CantidadProducto=CantidadProducto
+        self.TotalPagar=Totalpagar
+        self.Vendedor=Vendedor
         self.Producto=Producto
-    def __init__(self,Vendedor):
         self.Vendedor=Vendedor

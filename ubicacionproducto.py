@@ -1,3 +1,4 @@
+from heapq import nsmallest
 from producto import Producto
 from bodega import Bodega
 
@@ -8,7 +9,9 @@ class UbicacionProducto:
     Fila:int
     Columna:int
 
-    def __init__(self,Bodega):
+    def __init__(self,Bodega,Producto,NumeroStand,Fila,Columna):
+        self.NumeroStand=NumeroStand
+        self.Fila=Fila
+        self.Columna=Columna
         self.Bodega=Bodega
-    def __init__(self,Producto):
         self.Producto=Producto

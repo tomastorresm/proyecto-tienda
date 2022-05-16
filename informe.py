@@ -13,12 +13,15 @@ class Informe:
     Venta:Venta
     Inventario:Inventario
 
-    def __init__(self,Producto):
+    def __init__(self,FechaInicial,FechaFinal,CantidadVendidaProducto,CantidadTotalVendida,TotalDinero,Producto,Venta,Inventario):
         self.Producto=Producto
-    def __init__(self,Venta):
         self.Venta=Venta
-    def __init__(self,Inventario):
         self.Inventario=Inventario
+        self.FechaInicial=FechaInicial
+        self.FechaFinal=FechaFinal
+        self.CantidadVendidaProducto=CantidadVendidaProducto
+        self.CantidadTotalVendida=CantidadTotalVendida
+        self.TotalDinero=TotalDinero
 
     
     

@@ -9,7 +9,10 @@ class Inventario:
     Producto:Producto
     Administrador:Administrador
 
-    def __init__(self,Producto):
+    def __init__(self,Producto,CantidadEntrada,CantidadSalida,Precio,CantidadTotalProducto,Administrador):
+        self.CantidadEntrada=CantidadEntrada
+        self.CantidadSalida=CantidadSalida
+        self.Precio=Precio
+        self.CantidadTotalProductos
         self.Producto=Producto
-    def __init__(self,Administrador):
         self.Administrador=Administrador    
