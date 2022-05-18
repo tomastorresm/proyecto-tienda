@@ -10,7 +10,7 @@ class Usuario:
         
 
     def printdatos(self):
-        print(self.Nombre,self.DocumentoUsuario,self.Contrasena)    
+        print(self.Nombre,self.DocumentoUsuario)    
 x=Usuario("tomas","1002544519","123",)
 x.printdatos()
 
