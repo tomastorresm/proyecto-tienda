@@ -7,10 +7,14 @@ class Usuario:
         self.Nombre=Nombre
         self.DocumentoUsuario=DocumentoUsuario
         self.Contrasena=Contrasena
-        
-
-    def printdatos(self):
-        print(self.Nombre,self.DocumentoUsuario)    
-x=Usuario("tomas","1002544519","123",)
-x.printdatos()
+    
+    def main():
+        outfile=open("Usuario.txt","a")
+        Nombre=input("Ingrese su nombre: ")
+        DocumentoUsuario=input("Ingrese su documento: ")
+        Contrasena=input("Ingrese la contraseña: ")
+        outfile.write("Nombre: "+Nombre+"\n")
+        outfile.write("Documento: "+DocumentoUsuario+"\n")
+        outfile.write("Contrasena: "+Contrasena+"\n")
+    main()
 
