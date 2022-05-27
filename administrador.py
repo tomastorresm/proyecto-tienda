@@ -6,6 +6,13 @@ class Administrador(Usuario):
         super().__init__(Nombre, DocumentoUsuario, Contraseña)
         self.IdAdministrador=IdAdministrador
     
+    def Administrador():
+        outfile =open("Usuario.txt","a")
+        IdAdministrador=input("Ingrese su id de administrador: ")
+        outfile.write("IdAdministrador: "+IdAdministrador*"\n")
+        outfile.write("Tipo de usuario: Administrador: ")
+        outfile.write("________________________________________")
+    Administrador()    
         
    
 
