@@ -30,5 +30,5 @@ class DatoFactura:
         self.Telefono=Telefono
         self.NumeroDeFactura=NumeroFactura
         self.MetodoPago=MetodoPago
-    GenerarFactura()    
+       
 
