@@ -11,6 +11,20 @@ class Vendedor(Usuario):
         self.CorreoElectronico=CorreoElectronico
         self.DireccionResidencia=DireccionResidencia
         self.Sexo=Sexo
+    
+    def vendedor():
+        outfile =open("Usuario.txt","a")
+        Telefono=input("Ingrese su id de administrador")
+        CorreoElectronico=input("Ingrese su correo electronico: ")
+        DireccionResidencia=input("Ingrese su direccion de residencia: ")
+        Sexo=input("Ingrese su sexo: ")
+        outfile.write("Telefono: "+Telefono+"\n")
+        outfile.write("Tipo de usuario: Vendedor")
+        outfile.write("Correo electronico : "+CorreoElectronico+"\n")
+        outfile.write("Direccion de residencia : "+DireccionResidencia+"\n")
+        outfile.write("Sexo: "+Sexo+"\n")
+        outfile.write("________________________________________")
+    vendedor() 
 
 
 
